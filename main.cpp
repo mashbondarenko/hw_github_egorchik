@@ -1,8 +1,14 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
-	cout << "Hello, Git!";
-	cout << endl << "kek";
-}
+    string s;
+    cin >> s;
+
+    cout << "Hello, " << s << endl;
+    cout << "Hello, Git!" << endl;
+    cout << "kek" << endl;
+
+} 
